@@ -19,8 +19,14 @@ As tabelas possuem relacionamentos por meio de chaves primárias e estrangeiras.
 - Comandos UPDATE
 - Comandos DELETE
 
-## Como executar
-Basta abrir qualquer ferramenta SQL (MySQL Workbench, PGAdmin, Azure Data Studio, etc.), criar um banco de dados vazio e executar o arquivo `experiencia_pratica_4.sql`.
+Para executar este projeto, basta abrir qualquer ferramenta SQL (MySQL Workbench, PGAdmin, Azure Data Studio, DBeaver, etc.), criar um banco de dados vazio e rodar os arquivos na seguinte ordem:
+
+1️⃣ 01_criacao_tabelas.sql  
+2️⃣ 02_inserts.sql  
+3️⃣ 03_selects.sql  
+4️⃣ 04_updates_deletes.sql  
+
+Cada arquivo contém uma parte do projeto, facilitando a execução e a correção.
 
 ## Arquivo principal
 Todo o código está no arquivo:  
